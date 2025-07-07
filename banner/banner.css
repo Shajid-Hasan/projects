@@ -1,0 +1,12 @@
+nav li{
+    display: inline;
+    margin-right: 15px;
+    list-style: none;
+}
+
+nav li :hover{
+    background-color: tomato;
+}
+nav li a{
+    text-decoration: none;
+}

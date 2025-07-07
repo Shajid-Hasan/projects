@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    
+}
+.container div{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box-container{
+    display: flex;
+    gap: 50px;
+}
+
+.box{
+    font-size: 3rem;
+    height: 100px;
+    width: 150px;
+    border: 1px solid green; 
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container-1{
+    background-color: blueviolet;
+}
+
+.content{
+    background-color: aquamarine;
+    font-size: 2em;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 25px;
+}
