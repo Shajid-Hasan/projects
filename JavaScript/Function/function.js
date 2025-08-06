@@ -22,6 +22,8 @@ moneybag();
 function jokeMachine(input1, input2){
     let sum = input1 + input2;
     console.log("Sum is = " + sum);
+    return sum;
 }
-jokeMachine(10, 40);
-jokeMachine(500, 4000);
+
+const result = jokeMachine(10, 40);
+console.log(result);
