@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        color: aqua;
+    }
+</style>
+<body>
+    <header>
+        <h1>Web Development</h1>
+    </header>
+
+    <main>
+        <h1>Welcome to DOM</h1>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Tailwind CSS</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto iste similique autem nam adipisci veritatis nihil fuga natus quas consectetur quam distinctio reprehenderit nisi doloremque harum, maxime eveniet soluta! Ex!</p>
+    </main>
+
+    <script>
+        // console.log('Hello from JavaScript');
+        // console.log('My JavaScript code here');
+        const student = {
+            name: 'Alex',
+            age: 28,
+            id: 121,
+            study: function(subject){
+                console.log("studying subject:", subject);
+            }
+        }
+        // docudment.getElementsByTagName
+
+        const liCollecttion = document.getElementsByTagName('li');
+        console.log(liCollecttion);
+        for(const li of liCollecttion){
+            console.log(li.innerText)
+        }
+
+        // All h1 tags
+
+        const allHeadings = document.getElementsByTagName('h1');
+        for(const heading of allHeadings){
+            console.log(heading.innerText);
+        }
+
+        // Paragraph 
+        const allParagrap = document.getElementsByTagName('p');
+        for(const para of allParagrap){
+            console.log(para);
+            console.log(para.innerText);
+        }
+    </script>
+    <script src="js/hello.js"></script>
+</body>
+</html>
