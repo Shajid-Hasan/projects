@@ -9,6 +9,12 @@
     h1{
         color: aqua;
     }
+    #food-title{
+        color: red;
+    }
+    .programer, .fast-food{
+        font-weight: 700;
+    }
 </style>
 <body>
     <header>
@@ -16,14 +22,32 @@
     </header>
 
     <main>
-        <h1>Welcome to DOM</h1>
+        <section id="coder" class="programer">
+            <h1>Welcome to DOM</h1>
+            <p>Lorem ipsum, dolor sit <span>i am a programer</span>amet consectetur adipisicing elit. <span>Consequuntur,</span> Consequuntur, temporibus?</p>
+            <h1>webdeveloper <span>which languange you know</span>
+            </h1>
         <ul>
             <li>HTML5</li>
             <li>CSS3</li>
-            <li>JavaScript</li>
+            <li id="language">JavaScript</li>
             <li>Tailwind CSS</li>
         </ul>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto iste similique autem nam adipisci veritatis nihil fuga natus quas consectetur quam distinctio reprehenderit nisi doloremque harum, maxime eveniet soluta! Ex!</p>
+        </section>
+
+        <section class="food">
+            <h1 id="food-title">Foods I love</h1>
+            <ul>
+                <li>Rich</li>
+                <li>French fry</li>
+                <li>Burger</li>
+                <li>Noodles</li>
+                <li class="fast-food">Paseta</li>
+                <li class="fast-food">Pizza</li>
+                <li class="fast-food">Sea food</li>
+            </ul>
+        </section>
     </main>
 
     <script>
@@ -42,23 +66,50 @@
         const liCollecttion = document.getElementsByTagName('li');
         console.log(liCollecttion);
         for(const li of liCollecttion){
-            console.log(li.innerText)
+            // console.log(li.innerText)
         }
 
         // All h1 tags
 
         const allHeadings = document.getElementsByTagName('h1');
         for(const heading of allHeadings){
-            console.log(heading.innerText);
+            // console.log(heading.innerText);
         }
 
         // Paragraph 
         const allParagrap = document.getElementsByTagName('p');
         for(const para of allParagrap){
-            console.log(para);
-            console.log(para.innerText);
+            // console.log(para);
+            // console.log(para.innerText);
         }
-    </script>
+
+        // Get by Id
+
+        const foodTitle = document.getElementById('food-title');
+        console.log(foodTitle.innerText);
+
+        foodTitle.innerText = 'Foods I love to eat';
+
+        const lanElement = document.getElementById('language');
+        console.log(language.innerText);
+
+        // Get by class
+
+        const foodType = document.getElementsByClassName('fast-food');
+        // console.log(foodType.innerText);
+
+        for(const food of foodType){
+            // console.log(food.innerHTML);
+            console.log(food.innerText);
+        }
+
+        // Query selector all
+
+        const spanElements = document.querySelectorAll('#coder p span');
+        for(const span of spanElements){
+            console.log(span.innerText);
+        }
+</script>
     <script src="js/hello.js"></script>
 </body>
 </html>
