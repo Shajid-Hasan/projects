@@ -48,6 +48,16 @@
                 <li class="fast-food">Sea food</li>
             </ul>
         </section>
+
+        <section id="players-container">
+            <h1>Players</h1>
+            <ul>
+                <li>Mesi</li>
+                <li>play</li>
+                <li>Ronaldo</li>
+                <li>Kaka</li>
+            </ul>
+        </section>
     </main>
 
     <script>
@@ -86,12 +96,12 @@
         // Get by Id
 
         const foodTitle = document.getElementById('food-title');
-        console.log(foodTitle.innerText);
+        // console.log(foodTitle.innerText);
 
         foodTitle.innerText = 'Foods I love to eat';
 
         const lanElement = document.getElementById('language');
-        console.log(language.innerText);
+        // console.log(language.innerText);
 
         // Get by class
 
@@ -100,16 +110,17 @@
 
         for(const food of foodType){
             // console.log(food.innerHTML);
-            console.log(food.innerText);
+            // console.log(food.innerText);
         }
 
         // Query selector all
 
         const spanElements = document.querySelectorAll('#coder p span');
         for(const span of spanElements){
-            console.log(span.innerText);
+            // console.log(span.innerText);
         }
 </script>
     <script src="js/hello.js"></script>
+    <script src="js/cssInJS.js"></script>
 </body>
 </html>
