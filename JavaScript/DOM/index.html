@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <style>
     h1{
@@ -21,7 +22,7 @@
         <h1>Web Development</h1>
     </header>
 
-    <main>
+    <main id="main-container">
         <section id="coder" class="programer">
             <h1>Welcome to DOM</h1>
             <p>Lorem ipsum, dolor sit <span>i am a programer</span>amet consectetur adipisicing elit. <span>Consequuntur,</span> Consequuntur, temporibus?</p>
@@ -51,7 +52,7 @@
 
         <section id="players-container">
             <h1>Players</h1>
-            <ul>
+            <ul id="player-list">
                 <li>Mesi</li>
                 <li>play</li>
                 <li>Ronaldo</li>
@@ -74,7 +75,7 @@
         // docudment.getElementsByTagName
 
         const liCollecttion = document.getElementsByTagName('li');
-        console.log(liCollecttion);
+        // console.log(liCollecttion);
         for(const li of liCollecttion){
             // console.log(li.innerText)
         }
@@ -87,11 +88,11 @@
         }
 
         // Paragraph 
-        const allParagrap = document.getElementsByTagName('p');
-        for(const para of allParagrap){
-            // console.log(para);
-            // console.log(para.innerText);
-        }
+        // const allParagrap = document.getElementsByTagName('p');
+        // for(const para of allParagrap){
+        //     console.log(para);
+        //     console.log(para.innerText);
+        // }
 
         // Get by Id
 
@@ -122,5 +123,7 @@
 </script>
     <script src="js/hello.js"></script>
     <script src="js/cssInJS.js"></script>
+    <script src="js/child.js"></script>
+    <script src="js/append.js"></script>
 </body>
 </html>
