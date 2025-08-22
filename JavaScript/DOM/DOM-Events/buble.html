@@ -23,10 +23,10 @@
         }
     </style>
 </head>
-<body>
+<body id="body">
     <h1>Explore event Buble</h1>
 
-    <section>
+    <section id="list-container">
         <h3>List of things</h3>
         <!-- ul>li#item-$*6>lorem2 -->
         <ol id="item-list">
@@ -42,14 +42,45 @@
         // List item 2 click Handler
 
         document.getElementById('item-2')
-            .addEventListener('click', function(){
+            .addEventListener('click', function(event){
                 console.log('item 2 clicked');
+                // event.stopPropagation();
+                event.stopImmediatePropagation();
             })
+
+        // List item 2 click Handler
+
+        document.getElementById('item-2')
+            .addEventListener('click', function(event){
+                console.log('item 2 second clicked');
+            })
+
+        // List item 2 click Handler
+
+        document.getElementById('item-2')
+            .addEventListener('click', function(event){
+                console.log('item 2 third clicked');
+            })
+
         // ol click Handler
         
         document.getElementById('item-list')
             .addEventListener('click', function(){
                 console.log('ol clicked');
+            })
+
+        // Section click Handler
+
+        document.getElementById('list-container')
+            .addEventListener('click', function(){
+                console.log('section clicked');
+            })
+
+        // body click Handler
+
+        document.getElementById('body')
+            .addEventListener('click', function(){
+                console.log('body clicked');
             })
     </script>
 </body>
