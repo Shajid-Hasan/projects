@@ -6,13 +6,42 @@
     <title>Event Handler</title>
 </head>
 <body>
-    <h1>Event Handler</h1>
+    <h1 id="page-title">Event Handler</h1>
     <button id="btn-update-title">update title</button>
+
+    <p id="user-info">No User</p>
+    <button id="btn-login">Login</button>
+    <br>
+    <br>
+    <br> 
+    <!-- handle input text -->
+
+    <p id="name">No Name</p>
+    <input id="input-name" placeholder="Your Name" type="text">
+    <button id="btn-update">update</button>
+
+
     <script>
-        document.getElementById('btn-update-title').addEventListener('click', function(){
-            console.log('btn clicked');
-        })
+        // set event listner
+        document.getElementById('btn-update')
+            .addEventListener('click', function(){
+                console.log('update button clicked');
+
+                // 2. get the text form the input field
+                const inputName = document.getElementById('input-name');
+                console.log(inputName);
+                const userName = inputName.value;
+                console.log('name :', userName);
+            })
+
+            // set the name
+            const newName = document.getElementById('name')
+            newName.innerText = name;
+            
     </script>
+
+
+
     <script src="js/handler.js"></script>
 </body>
 </html>
