@@ -1,3 +1,17 @@
+/**
+ * some ( thumb rule ) of default value. may be useful
+ * 
+ * add,  substruct --> 0
+ * 
+ * multiply --> 1\
+ * 
+ * string --> '' (Thumb rule)
+ * 
+ * array = []
+ * 
+ * object = {}
+ */
+
 function sum(num1 = 0, num2 = 0){
     const total = num1 + num2;
     console.log(num1, num2, total);
@@ -44,16 +58,3 @@ object({
     })
 object()
 
-/**\
- * some ( thumb rule ) of default value. may be useful
- * 
- * add,  substruct --> 0
- * 
- * multiply --> 1\
- * 
- * string --> '' (Thumb rule)
- * 
- * array = []
- * 
- * object = {}
- */
