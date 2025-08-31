@@ -4,14 +4,14 @@ const add = (p, q) => p + q;
 // single parammeter
 
 const getSquare = (x) => x * x;
-const getHalf = number => number / 2;
-const firstElement = number => number[3];
-const logIt = () =>console.log(71) //[Undefined]
+const getHalf = (number) => number / 2;
+const firstElement = (number) => number[3];
+const logIt = () => console.log(71); //[Undefined]
 
-console.log(getSquare(8))
-console.log(getHalf(18))
-console.log(firstElement([1, 2, 3, 4]))
-console.log(logIt())
+console.log(getSquare(8));
+console.log(getHalf(18));
+console.log(firstElement([1, 2, 3, 4]));
+console.log(logIt());
 
 // annymous function
 
@@ -21,6 +21,4 @@ console.log(logIt())
 // document.getElementById('').addEventListener('click', () =>{
 
 // })
-document.getElementById('btn-click').addEventListener('click', event => {
-
-})
+document.getElementById("btn-click").addEventListener("click", (event) => {});
