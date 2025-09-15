@@ -24,6 +24,7 @@ function five(){
     console.log(5)
 }
 function six(){
+    
     console.log(6)
 }
 
