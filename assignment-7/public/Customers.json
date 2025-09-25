@@ -1,92 +1,92 @@
 [
     {
-        "id": 1,
-        "title": "Login issue",
-        "description": "User unable to log into the dashboard with valid credentials.",
-        "customer": "John Doe",
-        "priority": "High",
+        "id": 1001,
+        "title": "Login Issues - Can't Access Account",
+        "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+        "customer": "John Smith",
+        "priority": "HIGH PRIORITY",
         "status": "Open",
-        "createdAt": "2025-09-01"
+        "createdAt": "1/15/2024"
     },
     {
-        "id": 2,
-        "title": "Payment gateway error",
-        "description": "Transaction fails during checkout with error code 502.",
-        "customer": "Jane Smith",
-        "priority": "Critical",
+        "id": 1002,
+        "title": "Payment Failed - Card Declined",
+        "description": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+        "customer": "Sarah Johnson",
+        "priority": "HIGH PRIORITY",
         "status": "In Progress",
-        "createdAt": "2025-09-02"
+        "createdAt": "1/16/2024"
     },
     {
-        "id": 3,
-        "title": "Unable to reset password",
-        "description": "Password reset link not being sent to the user's email.",
-        "customer": "Michael Lee",
-        "priority": "Medium",
+        "id": 1003,
+        "title": "Unable to Download Invoice",
+        "description": "Customer cannot download their January invoice from the billing section. The download button is...",
+        "customer": "Michael Brown",
+        "priority": "MEDIUM PRIORITY",
         "status": "Open",
-        "createdAt": "2025-09-05"
+        "createdAt": "1/17/2024"
     },
     {
-        "id": 4,
-        "title": "Slow loading dashboard",
-        "description": "Dashboard takes over 10 seconds to load after login.",
+        "id": 1004,
+        "title": "Incorrect Billing Address",
+        "description": "Customer’s billing address shows a different city. They updated it but it still displays the old one.",
         "customer": "Emily Davis",
-        "priority": "Low",
+        "priority": "LOW PRIORITY",
         "status": "Resolved",
-        "createdAt": "2025-09-07"
+        "createdAt": "1/18/2024"
     },
     {
-        "id": 5,
-        "title": "Email notifications not received",
-        "description": "User is not receiving email alerts for account activity.",
+        "id": 1005,
+        "title": "App Crash on Launch",
+        "description": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
         "customer": "David Wilson",
-        "priority": "High",
+        "priority": "HIGH PRIORITY",
         "status": "Open",
-        "createdAt": "2025-09-10"
+        "createdAt": "1/19/2024"
     },
     {
-        "id": 6,
-        "title": "Bug in mobile app",
-        "description": "App crashes when navigating to settings page.",
+        "id": 1006,
+        "title": "Refund Not Processed",
+        "description": "Customer requested a refund two weeks ago but has not received the amount yet.",
         "customer": "Sophia Brown",
-        "priority": "Critical",
+        "priority": "MEDIUM PRIORITY",
         "status": "In Progress",
-        "createdAt": "2025-09-12"
+        "createdAt": "1/20/2024"
     },
     {
-        "id": 7,
-        "title": "Search function not working",
-        "description": "Search bar returns no results for valid queries.",
-        "customer": "Liam Johnson",
-        "priority": "Medium",
+        "id": 1007,
+        "title": "Unable to Update Profile Picture",
+        "description": "Customer is not receiving 2FA codes on their registered phone number.",
+        "customer": "James Anderson",
+        "priority": "HIGH PRIORITY",
         "status": "Open",
-        "createdAt": "2025-09-14"
+        "createdAt": "1/21/2024"
     },
     {
-        "id": 8,
+        "id": 1008,
         "title": "Error during checkout",
-        "description": "Checkout button does not respond after adding items.",
-        "customer": "Olivia Miller",
-        "priority": "High",
+        "description": "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
+        "customer": "Olivia Martinez",
+        "priority": "LOW PRIORITY",
         "status": "Resolved",
-        "createdAt": "2025-09-16"
+        "createdAt": ""
     },
     {
-        "id": 9,
-        "title": "Profile picture upload failed",
-        "description": "System rejects valid image formats on profile update.",
-        "customer": "Noah Anderson",
-        "priority": "Low",
+        "id": 1009,
+        "title": "Subscription Auto-Renewal",
+        "description": "Customer wants to enable auto-renewal for their subscription but the toggle is disabled.",
+        "customer": "Liam Thomas",
+        "priority": "MEDIUM PRIORITY",
         "status": "Closed",
-        "createdAt": "2025-09-18"
+        "createdAt": "1/17/2024"
     },
     {
-        "id": 10,
-        "title": "Data export issue",
-        "description": "Exported CSV contains incomplete data rows.",
-        "customer": "Ava Thompson",
-        "priority": "Medium",
+        "id": 1010,
+        "title": "Missing Order Confirmation Email",
+        "description": "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+        "customer": "Isabella Garcia",
+        "priority": "MEDIUM PRIORITY",
         "status": "Open",
-        "createdAt": "2025-09-20"
+        "createdAt": "1/24/2024"
     }
 ]
